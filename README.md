@@ -44,7 +44,11 @@ Enhanced multi-agent cargo drone design system using 4 specialized models with m
 ### Below all components created by - bootstrap_project.py
 
 📊 All components integrated with metabolic wallet constraints
+
+```
 (base) jorge@jorge-X99:~/4-model-SOT$ tree
+```
+
 ```
 ├── adapters
 │   ├── checkpoints
