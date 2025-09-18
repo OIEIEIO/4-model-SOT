@@ -1,8 +1,19 @@
-# 4-Model-SOT: Source of Truth
+# 4-Model-SOT: Collaborative AI with Economic Constraints
 
-Multi-Agent System with Metabolic Wallet Constraints - Tarinn mouthpiece
+**Tarinn Neural Net - Multi-Agent Intelligence Platform**
 
-Enhanced multi-agent cargo drone design system using 4 specialized models with metabolic resource constraints.
+A framework demonstrating how multiple AI models can collaborate under resource constraints to solve complex problems, moving beyond single-model limitations toward team-based artificial intelligence.
+
+## Core Innovation: Economic Collaboration
+
+Traditional AI systems use one model per task. 4-Model-SOT creates AI teams where different models play specialized roles, compete for limited resources, and must collaborate to succeed. Economic pressure forces strategic thinking and quality work - just like human teams.
+
+## What Makes This Different
+
+- **Role Specialization**: Models optimized for technical, practical, strategic, and reasoning tasks
+- **Resource Scarcity**: Metabolic wallet system creates realistic constraints and incentives  
+- **Iterative Improvement**: Models learn from collaboration and adapt over time
+- **Measurable Outcomes**: Track collaboration effectiveness, not just individual performance
 
 ## System Architecture
 
@@ -21,78 +32,91 @@ Enhanced multi-agent cargo drone design system using 4 specialized models with m
 6. **Lion** - Manager (strategic pool)
 7. **Crow** - Reasoning Specialist (reasoning pool)
 
-## Wallet Economics System
+### Wallet Economics System
 
-### Metabolic Constraints
+#### Metabolic Constraints
 - Starting balance: 100 credits per agent
 - Exponential decay: 10% per minute (metabolic consumption)
 - Operation costs: Basic response (10), Enhanced model (25)
 - Rewards: Completion items (50), Quality bonuses (variable)
 
-### Economic Pressure
+#### Economic Pressure
 - Broke agents excluded from participation
 - Enhanced models require higher resource investment
 - Quality work rewarded through pattern matching
 - Strategic resource allocation required for success
 
-```git clone https://github.com/OIEIEIO/4-model-SOT```
+## Real-World Applications
 
-```cd 4-model-SOT```
+- **Engineering Design**: Complex systems requiring multiple disciplines
+- **Research Projects**: Teams analyzing data from different perspectives  
+- **Business Strategy**: Multi-stakeholder decision making with resource constraints
+- **Creative Collaboration**: AI teams working on artistic or innovative projects
+- **Educational Simulation**: Teaching collaboration and resource management
 
-```python bootstrap_project.py``` - creates all files and folders for the project
+## The Collaboration Advantage
 
-### Below all components created by - bootstrap_project.py
+Human expertise emerges from teams, not individuals. 4-Model-SOT applies this principle to AI - creating systems that can tackle problems requiring diverse thinking patterns, cross-disciplinary knowledge, and strategic resource allocation.
 
-📊 All components integrated with metabolic wallet constraints
+## Beyond Cargo Drones
 
+While demonstrated through drone design, the framework generalizes to any collaborative problem. The economic constraints and role-based architecture create emergent behaviors: quality over quantity, strategic thinking, and genuine cooperation between AI agents.
+
+## Growth Trajectory
+
+This represents early steps toward AI systems that collaborate, compete, and improve together - moving from isolated models toward artificial intelligence that works more like human teams, with the mathematical precision of Tarinn's neural architectures.
+
+## Quick Start
+```bash
+git clone https://github.com/OIEIEIO/4-model-SOT
+cd 4-model-SOT
+python bootstrap_project.py  # Creates all files and folders for the project
+python run10.py             # Downloads models and runs 10-minute demo
 ```
-(base) jorge@jorge-X99:~/4-model-SOT$ tree
-```
-
+Project Structure
+Below shows all components created by bootstrap_project.py:
 ```
 ├── adapters
-│   ├── checkpoints
-│   └── lora
+│   ├── checkpoints
+│   └── lora
 ├── bootstrap_project.py
 ├── config.json
 ├── data
-│   ├── completion_tracking.csv
-│   ├── golden
-│   ├── preferences
-│   ├── preferences.csv
-│   ├── quality_metrics.csv
-│   ├── sessions
-│   ├── sessions.csv
-│   ├── turns.csv
-│   ├── wallet_logs
-│   └── wallet_transactions.csv
+│   ├── completion_tracking.csv
+│   ├── golden
+│   ├── preferences
+│   ├── preferences.csv
+│   ├── quality_metrics.csv
+│   ├── sessions
+│   ├── sessions.csv
+│   ├── turns.csv
+│   ├── wallet_logs
+│   └── wallet_transactions.csv
 ├── download_models.py
 ├── evals
-│   ├── golden
-│   │   └── golden_suite_v10.0.md
-│   └── regression
+│   ├── golden
+│   │   └── golden_suite_v10.0.md
+│   └── regression
 ├── kb
-│   ├── acceptance.md
-│   ├── agents.md
-│   ├── components.csv
-│   ├── design_notes.md
-│   ├── SOT.md
-│   └── tests_template.md
+│   ├── acceptance.md
+│   ├── agents.md
+│   ├── components.csv
+│   ├── design_notes.md
+│   ├── SOT.md
+│   └── tests_template.md
 ├── models
-│   ├── base
-│   └── cache
+│   ├── base
+│   └── cache
 ├── README.md
 ├── requirements.txt
-├── run10.py
 ├── runs
-│   ├── artifacts
-│   └── logs
+│   ├── artifacts
+│   └── logs
 ├── src
-│   └── core
+│   └── core
 └── VERSION.json
-
-21 directories, 20 files
 ```
-(base) jorge@jorge-X99:~/4-model-SOT$ 
+All components integrated with metabolic wallet constraints.
 
-```python run10.py``` - downloads all the models and does a 10 minute run
+Built by Tarinn Neural Net - Advancing collaborative artificial intelligence through economic constraints and specialized model architectures.
+Retry
